@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b1b32;
+    font-family: 'Robooto', sans-serif;
+    min-width: 100%;
+    min-height: 100%;
+    margin:  0 auto;
+    overflow: hidden;
+}
+
+.title, 
+.sub-title,
+.sub-title-one {
+    text-align: center;
+    color: #fafafa;
+    margin: 20px 0;
+}
+
+.footer-container {
+    color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.footer-container, 
+.footer-items {
+    display: flex;
+    gap: 16px;
+}
